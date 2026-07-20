@@ -41,7 +41,7 @@ object LosslessAPI {
 
         try {
             val request = Request.Builder()
-                .url("https://raw.githubusercontent.com/Biskwuit/Lossless-Library/refs/heads/main/music.json")
+                .url("https://lossless-library.vercel.app/music.json")
                 .get()
                 .build()
 
